@@ -44,6 +44,7 @@ Check out the live demo of NexBuy:
 ### 1️⃣ Clone the Repository  
 ```bash
 https://github.com/omavcher/Personal-Finance-Stock-Manager.git
+```
 ```bash
 cd finance-manager
 ```
