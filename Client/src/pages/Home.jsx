@@ -34,7 +34,7 @@ function Home() {
 
     const loader = new GLTFLoader();
     loader.load(
-      'src/assets/3d/CenturionCard3D.glb', (gltf) => {
+      'assets/3d/CenturionCard3D.glb', (gltf) => {
         modelRef.current = gltf.scene;
         scene.add(gltf.scene);
         modelRef.current.position.set(0, 0, 0); // Adjust as needed
