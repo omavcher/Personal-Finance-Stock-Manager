@@ -108,7 +108,7 @@ function Profile() {
 
         {completionScore < 90 && (
   <Link to='/financial-plan' className='profile-pop-complet88'>
-    <img src='src/assets/complet-profile.svg' alt="Complete profile" />
+    <img src='assets/complet-profile.svg' alt="Complete profile" />
     <div className='profile-pop-text-745'>
       <h2>Complete your profile</h2>
       <p>Personalize your Stable Money experience</p>
@@ -125,7 +125,7 @@ function Profile() {
         {/* Left container for links */}
         <div className='stuff-box-leftcontainer'>
           <Link to='/my-investments' className='stuff-box-cointiner88'>
-            <img src='src/assets/my-invesments.svg' alt="My Investments" />
+            <img src='assets/my-invesments.svg' alt="My Investments" />
             <div className='stuff-box-info-ox97'>
               <p>My Investments</p>
               <span>
@@ -147,7 +147,7 @@ function Profile() {
           </Link>
 
           <Link to='/my-emergency-fund' className='stuff-box-cointiner88'>
-            <img src='src/assets/Emergency_Fund.svg' alt="Emergency Fund" />
+            <img src='assets/Emergency_Fund.svg' alt="Emergency Fund" />
             <div className='stuff-box-info-ox97'>
               <p>My Emergency Fund</p>
               <span>
@@ -157,7 +157,7 @@ function Profile() {
           </Link>
 
           <Link to='/credit-cards' className='stuff-box-cointiner88'>
-            <img src='src/assets/credit-card.svg' alt="Credit For You" />
+            <img src='assets/credit-card.svg' alt="Credit For You" />
             <div className='stuff-box-info-ox97'>
               <p>Credit For You</p>
               <span>
@@ -170,7 +170,7 @@ function Profile() {
         {/* Right container for other links */}
         <div className='stuff-box-rightcontainer'>
           <Link to='/talk-to-our-expert' className='stuff-box-cointiner88'>
-            <img src='src/assets/talk-to-expert.svg' alt="Talk to our expert" />
+            <img src='assets/talk-to-expert.svg' alt="Talk to our expert" />
             <div className='stuff-box-info-ox97'>
               <p>Talk to our expert</p>
               <span>
@@ -180,7 +180,7 @@ function Profile() {
           </Link>
 
           <Link to='/invite-your-loved-ones' className='stuff-box-cointiner88'>
-            <img src='src/assets/invite-loved-ones.svg' alt="Invite your loved ones" />
+            <img src='assets/invite-loved-ones.svg' alt="Invite your loved ones" />
             <div className='stuff-box-info-ox97'>
               <p>Invite your loved ones</p>
               <span>
@@ -190,7 +190,7 @@ function Profile() {
           </Link>
 
           <Link to='/support-faq' className='stuff-box-cointiner88'>
-            <img src='src/assets/support-faq.svg' alt="Support & FAQs" />
+            <img src='assets/support-faq.svg' alt="Support & FAQs" />
             <div className='stuff-box-info-ox97'>
               <p>Support & FAQs</p>
               <span>
