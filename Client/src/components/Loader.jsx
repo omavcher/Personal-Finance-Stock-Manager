@@ -27,18 +27,18 @@ function Loader() {
   
 
   const financialImages = [
-    "src/assets/l-1.jpg",
-    "src/assets/l-2.jpg",
-    "src/assets/l-3.jpg",
-    "src/assets/l-4.webp",
-    "src/assets/l-5.jpg",
-    "src/assets/l-6.jpg",
-    "src/assets/l-7.jpg",
-    "src/assets/l-8.jpg",
-    "src/assets/l-9.jpg",
-    "src/assets/l-10.jpg",
-    "src/assets/l-11.jpg",
-    "src/assets/l-12.jpg",
+    "assets/l-1.jpg",
+    "assets/l-2.jpg",
+    "assets/l-3.jpg",
+    "assets/l-4.webp",
+    "assets/l-5.jpg",
+    "assets/l-6.jpg",
+    "assets/l-7.jpg",
+    "assets/l-8.jpg",
+    "assets/l-9.jpg",
+    "assets/l-10.jpg",
+    "assets/l-11.jpg",
+    "assets/l-12.jpg",
   ];
 
   const randomColor = () => {
