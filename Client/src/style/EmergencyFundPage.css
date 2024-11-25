@@ -1,0 +1,203 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styling */
+  .header {
+    color: black;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Main content */
+  .emergency-fund-page {
+    padding: 40px 20px;
+  }
+  
+  /* Section Titles */
+  h2, h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Fund Summary Section */
+  .fund-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card .MuiSvgIcon-root {
+    font-size: 40px;
+    color: #FB4B04;
+  }
+  
+  .card .progress {
+    margin-top: 10px;
+  }
+  
+  /* Progress Bar */
+  .react-sweet-progress .react-sweet-progress-percent {
+    font-size: 18px;
+  }
+  
+  .react-sweet-progress-success {
+    background-color: #4caf50;
+  }
+  
+  .react-sweet-progress-normal {
+    background-color: #FB4B04;
+  }
+  
+  /* Personalized Advice Section */
+  .personalized-advice {
+    background-color: #eaf5e6;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+  }
+  
+  .personalized-advice p {
+    color: darkgreen;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .advice-message {
+    background-color: #d4edda;
+    padding: 15px;
+    border-radius: 8px;
+    color: #155724;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .advice-message p {
+    margin: 10px 0;
+  }
+  
+  .advice-message strong {
+    font-size: 20px;
+  }
+  
+  .advice-message .action-required {
+    color: #e74c3c;
+  }
+  
+  /* Financial Tips Section */
+  .financial-tips {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  
+  .financial-tips ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  .financial-tips li {
+    margin: 12px 0;
+    color: #444;
+  }
+  
+  .financial-tips li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #28a745;
+  }
+  
+  .financial-tips li span {
+    font-weight: bold;
+  }
+  
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 30px;
+    }
+  
+    .fund-summary {
+      grid-template-columns: 1fr;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+  
+    .personalized-advice, .financial-tips {
+      padding: 20px;
+    }
+  
+    .financial-tips ul {
+      font-size: 16px;
+    }
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 10px 20px;
+    background-color: #FB4B04;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #d84303;
+  }
+  
+  

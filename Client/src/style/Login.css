@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and background */
+  body {
+    background: #f2f3f5;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+  }
+  
+  /* Login Container */
+  .login-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #efefef;
+    animation: gradientAnim 15s ease infinite;
+  }
+  
+  /* Gradient Animation */
+  @keyframes gradientAnim {
+    0% {
+      background: #2C3E50;
+    }
+    50% {
+      background: #4A69BD;
+    }
+    100% {
+      background: #2C3E50;
+    }
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: #ffffff;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    width: 380px;  /* Increased width */
+    max-width: 100%;
+    text-align: center;
+    animation: fadeIn 1.2s ease-out;
+    /* Optional: Added padding for larger screen size */
+  }
+  
+  /* Heading */
+  .login-box h2 {
+    font-size: 36px; /* Increased font size */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Subtitle */
+  .subtitle {
+    color: #777;
+    font-size: 16px; /* Slightly larger subtitle */
+    margin-bottom: 30px; /* Increased space between subtitle and form */
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin-bottom: 25px; /* Increased space between input fields */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 16px; /* Increased padding for larger fields */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-group input:focus {
+    border-color: #4A69BD;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(74, 105, 189, 0.5);
+    transform: translateY(-5px);
+  }
+  
+  /* Button */
+  .login-btn {
+    width: 100%;
+    padding: 18px; /* Increased padding for larger button */
+    background-color: #4A69BD;
+    border: none;
+    color: white;
+    font-size: 18px; /* Larger font for the button */
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .login-btn:hover {
+    background-color: #3a58a0;
+    transform: translateY(-5px);
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    margin-top: 30px; /* Increased space between form and links */
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .footer-links a {
+    color: #4A69BD;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #333;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

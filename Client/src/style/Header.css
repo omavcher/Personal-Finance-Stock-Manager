@@ -1,0 +1,136 @@
+/* Make sure to override the default Material-UI AppBar styling */
+.static-header650 {
+    background-color: #000 !important;
+    justify-content: space-around !important;
+  }
+  
+  .css-1ygil4i-MuiToolbar-root{
+    justify-content: space-between;
+
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  
+  header a:hover {
+    color: #25a56d; /* Color change on hover */
+  }
+  
+  header .mobileMenu {
+    display: none;
+  }
+  
+  .drawer-45{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .MuiPaper-root{
+    background-color: #000;
+  }
+
+  
+  @media (max-width: 600px) {
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-content nav {
+      display: none;
+    }
+  
+    .mobileMenu {
+      display: block;
+    }
+  }
+  /* Global styles for fade-in effect */
+body {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  
+  /* Animation for page load */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Smooth slide-in effect for header */
+  @keyframes slideInHeader {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .MuiAppBar-root {
+    animation: slideInHeader 0.5s ease-out;
+  }
+  
+  /* Hamburger menu icon animation */
+  .MuiIconButton-root {
+    transition: transform 0.3s ease;
+  }
+  
+  .MuiIconButton-root:hover {
+    transform: scale(1.1); /* Slight scale effect on hover */
+  }
+  
+  /* Styling for Drawer */
+  .drawer-45 {
+    animation: slideInDrawer 0.3s ease-out;
+  }
+  
+  @keyframes slideInDrawer {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Hover effect for Drawer Links */
+  .MuiButton-root {
+    transition: all 0.3s ease;
+  }
+  
+  .MuiButton-root:hover {
+    color: black;
+    background-color: #25a56d;
+  }
+  
+  /* Drawer background blur effect */
+  .MuiDrawer-paper {
+    backdrop-filter: blur(10px); /* Blurring effect */
+  }
+  
+  /* Background animation for the header */
+  .HeaderWrapper {
+    transition: background-color 0.3s ease;
+  }
+  
+  .HeaderWrapper:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  .css-133pvd2-MuiButtonBase-root-MuiButton-root{
+    flex-direction: column;
+  }

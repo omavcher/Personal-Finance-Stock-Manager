@@ -1,0 +1,154 @@
+/* Credit Card Section Styling */
+.credit-card-section-1 {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .credit-card-section-1.animate-cards {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .section-title-1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  /* Flexbox for responsive cards */
+  .credit-card-container-1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .credit-card-card-1 {
+    background: #fff;
+    width: 300px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .card-content-1 {
+    padding: 20px;
+  }
+  
+  .card-image-1 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .card-name-1 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .card-features-1 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .card-feature-1 {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .view-btn-1 {
+    width: 95%;
+  height: 2.2rem;
+  font-weight: 600;
+  color: white;
+  background-color: #222229;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    transition:  0.3s ease; 
+}
+  
+  .view-btn-1:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+  
+  /* Responsive Design for Mobile Devices */
+  @media (max-width: 768px) {
+    .credit-card-container-1 {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .credit-card-card-1 {
+      width: 90%; /* Full width for cards on mobile */
+      margin-bottom: 30px;
+      padding: 15px;
+    }
+  
+    .card-name-1 {
+      font-size: 1.5rem; /* Smaller title on mobile */
+    }
+  
+    .card-feature-1 {
+      font-size: 0.9rem; /* Smaller text for features */
+    }
+  
+    .view-btn-1 {
+      padding: 8px 15px; /* Smaller button on mobile */
+      font-size: 0.9rem; /* Smaller button text */
+    }
+  
+    /* Adjust padding and margins for better spacing on small screens */
+    .section-title-1 {
+      font-size: 2rem; /* Adjust the section title size for mobile */
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .credit-card-card-1 {
+      width: 100%; /* Make the cards even more responsive on small screens */
+    }
+  
+    .card-name-1 {
+      font-size: 1.3rem; /* Even smaller title */
+    }
+  
+    .card-feature-1 {
+      font-size: 0.8rem; /* Even smaller feature text */
+    }
+  
+    .view-btn-1 {
+      padding: 7px 12px;
+      font-size: 0.85rem;
+    }
+  }
+  /* Add this to your CreditCardSection.css */
+
+.credit-card-section-1 {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease, transform 1s ease;
+    flex-direction: column;
+  }
+  
+  .credit-card-section-1.animate-cards {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  

@@ -1,0 +1,128 @@
+.DetailedStock{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.stock-details{
+    width: 100%;
+    height: auto;
+}
+.stock-image-sair-coi292{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 1.5rem;
+}
+
+.stock-image-sair-coi292 img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3px;
+    margin-bottom: 0;
+}
+
+.stock-main-name-label41650{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    padding: 0.5rem 0 0rem 1.5rem;
+    margin-bottom: 0;
+}
+
+.stock-main-price-8282828{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    padding: 0rem 0 0.5rem 1.5rem;
+    font-size: 100rem;
+    margin-top: 0.5rem;
+
+}
+.stock-main-price-8282828 h2{
+    margin-bottom: 0;
+
+}
+.stock-main-name-label41650 h2{
+    margin-bottom: 0;
+
+}
+.stock-incidec-289{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.2rem;
+    padding-left: 1.5rem;
+}
+.da24662{
+    margin-left: 5px;
+    color: #7c7e8c;
+    font-weight: 600;
+}
+
+.stock-index-canvs-789 canvas{
+    height: 292px;
+}
+
+
+@media (max-width: 400px) {
+    .stock-index-canvs-789 canvas{
+        height: 256px;
+    }
+  }
+  
+  .stockperfomc-today-high-low{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stockperfomc-last-high-low-25{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stock-Performance-coaintainer{
+    margin-top: 1rem;
+  }
+
+  .stockperfomc-today-high-low span{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stockperfomc-last-high-low-25 span{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .not-stock-found{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .not-stock-found img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: contain;
+
+  }

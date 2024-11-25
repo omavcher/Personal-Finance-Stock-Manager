@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Support FAQs Page */
+  .support-faqs-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* Header Section */
+  .support-header {
+    text-align: center;
+    background-color: #e6f6ef;
+    border: 1.5px solid #5fc69bbc;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .support-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .support-header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* FAQ Section */
+  .faq-section {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #25a56d;
+    margin-bottom: 20px;
+  }
+  
+  .faq-list {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .faq-item {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .faq-question {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #79fac2;
+    cursor: pointer;
+  }
+  
+  .faq-question h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #222;
+  }
+  
+  .faq-question span {
+    font-size: 24px;
+    color: #25a56d;
+  }
+  
+  .faq-answer {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .faq-answer p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    color: #25a56d;
+    margin-bottom: 15px;
+  }
+  
+  .contact-section p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    .faq-question h3 {
+      font-size: 18px;
+    }
+  
+   
+  }
+
+  .contact-button{
+    width: 95%;
+    height: 2.2rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    transition:  0.3s ease; 
+    background-color: #222229;
+    font-size: 18px;
+  }
+  .contact-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
