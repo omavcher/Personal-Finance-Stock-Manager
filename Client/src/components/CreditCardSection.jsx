@@ -7,7 +7,7 @@ function CreditCardSection() {
       _id: "673e9b7cdb9db4d59f728333",
       id: 1,
       name: "HDFC Regalia Credit Card",
-      image: "src/assets/cradit-cards/hdfcregalia.png",
+      image: "assets/cradit-cards/hdfcregalia.png",
       features: [
         "Earn 2 reward points for every Rs. 150 spent.",
         "Exclusive airport lounge access.",
@@ -18,7 +18,7 @@ function CreditCardSection() {
       _id: "673e9b7cdb9db4d59f728334",
       id: 2,
       name: "SBI Card Elite",
-      image: "src/assets/cradit-cards/sbielite.png",
+      image: "assets/cradit-cards/sbielite.png",
       features: [
         "5% cashback on online purchases.",
         "2 complimentary airport lounge visits per quarter.",
