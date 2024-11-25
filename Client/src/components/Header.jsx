@@ -63,6 +63,7 @@ function Header() {
               <NavButton component={Link} to="/stocks">Stocks</NavButton>
               <NavButton component={Link} to="/fds">FD's</NavButton>
               <NavButton component={Link} to="/profile">Profile</NavButton>
+               <NavButton component={Link} to="/login">Login</NavButton>
             </NavLinks>
           )}
 
@@ -88,6 +89,7 @@ function Header() {
           <NavButton component={Link} to="/stocks">Stocks</NavButton>
           <NavButton component={Link} to="/fds">FD's</NavButton>
           <NavButton component={Link} to="/profile">Profile</NavButton>
+                         <NavButton component={Link} to="/login">Login</NavButton>
         </div>
       </Drawer>
     </HeaderWrapper>
